@@ -187,4 +187,14 @@ ul {
     justify-items: center;
     row-gap: 10px;
   }
+  #details {
+    .flex {
+      flex-direction: column;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+  }
 }
